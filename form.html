@@ -6,12 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>My First form</h1>
-    <form>
-        <label for="">name</label> <br /><br>
+    <form action="thanks.html" method="get">
+        <fieldset>
+            <legend>first basic form partice</legend>
+
+        </fieldset><br>
+        <label for="">name</label> <br />
         <label for="">first name</label>
-        <label for="">second name</label><br>
-        <input type="text" name="" id="first name" placeholder="enter you first name">
+        <input type="text" name="" id="first name" placeholder="enter you first name"><br>
+        <label for="">second name</label>
         <input type="text" id="second name" placeholder="enter your second name"/><br /><br />
         <label for="">email</label> <br />
         <input type="email" id="email" placeholder="enter your email" /> <br /><br/>
@@ -25,8 +28,17 @@
         <input type="radio" name="answer" /> h6 tag
         <input type="radio" name="answer" /> head tag
         <input type="radio" name="answer" /> heading tag
-        <input type="radio" name="answer" /> h1 tag
-        <label for="">Select Your Branch</label> <br><br>
+        <input type="radio" name="answer" /> h1 tag <br> <br>
+        <label for="hobbies">your Hobbies</label> <br>
+        <input type="checkbox" name="hobbies" value="singing" />singing
+        <input type="checkbox" name="hobbies" vlaue="dancing" />dancing
+        <input type="checkbox" name="hobbies" value="reading" />reading <br /><br />
+        <label for="state">select your state </label>
+        <select name="state" id="state">
+            <option value="" disabled selected>choose a state</option><br>
+            <option value="U.P.">UP</option>
+            <option value="M.P.">MP</option>
+        </select><br><br>
         <input type="submit" value="registration">
     </form>
 </body>
