@@ -1,0 +1,4 @@
+var student ={
+    name:"sher"
+
+}
