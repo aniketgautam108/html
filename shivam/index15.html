@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Rocket Animation</title>
+  <style>
+    body {
+      margin: 0;
+      background: black;   
+      overflow: hidden;    
+    }
+    .rocket {
+      position: absolute;
+      bottom: -100px;      
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 50px;    
+      animation: fly 5s linear infinite; 
+    }
+    @keyframes fly {
+      from { bottom: -100px; }
+      to   { bottom: 100%; }
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="rocket">🚀</div>
+</body>
+</html>
